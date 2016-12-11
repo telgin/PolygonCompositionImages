@@ -8,7 +8,7 @@ Author: Thomas Elgin (https://github.com/telgin)
 
 class Square(Shape):
     """
-    Quadrilateral implementation.
+    Square implementation.
     """
 
     def randomizePoints(self):
