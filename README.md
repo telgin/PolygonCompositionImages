@@ -74,9 +74,13 @@ sudo apt-get update
 sudo apt-get install inkscape
 
 Ex:
-\#do specific SVG
+#do specific SVG
 inkscape -z -e output.png input.svg
 
-\#do all SVGs
+#do all SVGs
 find -type f -name '*.svg' -exec inkscape -z -e {}.png {} \;
 ```
+
+##References:
+* https://rogeralsing.com/2008/12/07/genetic-programming-evolution-of-mona-lisa/
+* https://github.com/fogleman/primitive
